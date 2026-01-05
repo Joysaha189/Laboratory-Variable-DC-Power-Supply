@@ -6,7 +6,7 @@ The project was developed as part of the **EEE 316 – Power Electronics Laborat
 
 ---
 
-###### **📌 Project Objectives**
+## 📌 Project Objectives
 
 * Step down **220V AC** to a lower AC voltage
 * Convert AC voltage to DC using rectification and filtering
@@ -17,9 +17,9 @@ The project was developed as part of the **EEE 316 – Power Electronics Laborat
 
 ---
 
-###### **🧩 System Block Diagram**
+## 🧩 System Block Diagram
 
-![block_diagram](Images/block_diagram.png)
+![block_diagram](Images/blockdiagram.png)
 
 **Main Functional Blocks:**
 
@@ -30,14 +30,13 @@ The project was developed as part of the **EEE 316 – Power Electronics Laborat
 * Error Voltage Measurement
 * Feedback Controller
 * Reference Voltage Source
-
+* 
+![output_15v](Images/circuit_diagram.png)
 ---
 
-###### **⚙️ System Description**
+## ⚙️ System Description
 
----
-
-**✔ Step-down Transformer Block**
+### ✔ Step-down Transformer Block
 
 * Input: 220V RMS AC (311V peak)
 * Transformer Rating: **220V / 30V RMS**
@@ -46,7 +45,7 @@ The project was developed as part of the **EEE 316 – Power Electronics Laborat
 
 ---
 
-**✔ Rectifier Block**
+### ✔ Rectifier Block
 
 * Full-wave bridge rectifier
 * RC filter used to suppress high-frequency ripple
@@ -55,7 +54,7 @@ The project was developed as part of the **EEE 316 – Power Electronics Laborat
 
 ---
 
-**✔ Buck–Boost Converter Block**
+### ✔ Buck–Boost Converter Block
 
 * Operates as:
   * **Buck converter** for duty cycle **D < 0.5**
@@ -70,7 +69,7 @@ V_o = -\frac{D}{1-D} V_{in}
 
 ---
 
-**✔ Error Voltage Measurement**
+### ✔ Error Voltage Measurement
 
 * Reference Voltage: **15V**
 * Error Voltage ≈ **0.2V**
@@ -78,7 +77,7 @@ V_o = -\frac{D}{1-D} V_{in}
 
 ---
 
-**✔ Feedback Controller**
+### ✔ Feedback Controller
 
 * Components:
   * Gain block
@@ -91,32 +90,30 @@ V_o = -\frac{D}{1-D} V_{in}
 
 ---
 
-###### **📊 Simulation Results**
+## 📊 Simulation Results
 
----
-
-**Output Voltage Regulation (15V Reference)**
+### Output Voltage Regulation (15V Reference)
 
 * Load = **5kΩ** → Output ≈ 15V  
 * Load = **220Ω** → Output ≈ 15V  
 
-![output_15v](Images/output_15v.png)
+
 
 ---
 
-**Variable DC Output via Reference Voltage Control**
+### Variable DC Output via Reference Voltage Control
 
 * Reference = **10V**
 * Reference = **15V**
 * Reference = **20V**
 
-![variable_output](Images/variable_output.png)
+![variable_output](Images/outputs.png)
 
 The output voltage closely tracks the reference voltage, demonstrating effective closed-loop control.
 
 ---
 
-###### **🧪 Key Observations**
+## 🧪 Key Observations
 
 * Stable DC output regardless of load variation
 * Accurate reference tracking
@@ -125,7 +122,7 @@ The output voltage closely tracks the reference voltage, demonstrating effective
 
 ---
 
-###### **🎯 Project Impact**
+## 🎯 Project Impact
 
 This project provides hands-on understanding of:
 
@@ -138,7 +135,7 @@ It closely resembles real-world **laboratory power supplies** used in electronic
 
 ---
 
-###### **Project Status**
+## Project Status
 
 ✅ Completed — Functional simulation verified  
 
@@ -150,7 +147,7 @@ It closely resembles real-world **laboratory power supplies** used in electronic
 
 ---
 
-###### **Contributors**
+## Contributors
 
 * **Joy Saha (1706189)**
 * Ishtiaque Ahmed (1706190)
@@ -162,6 +159,6 @@ Bangladesh University of Engineering and Technology (BUET)
 
 ---
 
-###### **License**
+## License
 
 This project is for academic and educational purposes only.
