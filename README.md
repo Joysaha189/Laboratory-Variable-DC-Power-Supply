@@ -30,7 +30,7 @@ The project was developed as part of the **EEE 316 – Power Electronics Laborat
 * Error Voltage Measurement
 * Feedback Controller
 * Reference Voltage Source
-* 
+
 ![output_15v](Images/circuit_diagram.png)
 ---
 
@@ -61,9 +61,9 @@ The project was developed as part of the **EEE 316 – Power Electronics Laborat
   * **Boost converter** for duty cycle **D > 0.5**
 * Output Voltage Equation:
 
-\[
+[
 V_o = -\frac{D}{1-D} V_{in}
-\]
+]
 
 * Achieved Output Voltage: **≈ −14.8V**
 
