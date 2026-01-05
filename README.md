@@ -59,7 +59,7 @@ The project was developed as part of the **EEE 316 – Power Electronics Laborat
 * Operates as:
   * **Buck converter** for duty cycle **D < 0.5**
   * **Boost converter** for duty cycle **D > 0.5**
-* Output Voltage Equation: $ V_o = -\frac{D}{1-D} V_{in} $
+* Output Voltage Equation: $V_o = -\frac{D}{1-D} V_{in}$
 
 * Achieved Output Voltage: **≈ −14.8V**
 
